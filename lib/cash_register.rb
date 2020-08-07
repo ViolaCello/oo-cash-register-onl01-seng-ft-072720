@@ -24,6 +24,7 @@ class CashRegister
  end 
  end 
    @total = @total + (price * q)
+   @last_tran = [title, price, q]
  end
  
  def items
@@ -63,6 +64,11 @@ class CashRegister
  #   e = @total - d 
   #  @total = e 
 #end
- end 
+ #end 
+ 
+ def void_last_transaction
+   
+   
+ 
  
 end
