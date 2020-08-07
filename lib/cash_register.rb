@@ -49,16 +49,16 @@ class CashRegister
  end
      
  
- def void_last_transaction
-  a = @items.pop
-  if @items == []
-    b = 0 
-    bb = @total * b 
-    bbb = bb.to_f 
-    @total = bbb 
-   
-  else
-    c = @total
+ #def void_last_transaction
+  #a = @items.pop
+  #if @items == []
+ #   b = 0 
+  #  bb = @total * b 
+  #  bbb = bb.to_f 
+ #   @total = bbb 
+ #  
+ # else
+#    c = @total
     d = @prices[-1]
     e = @total - d 
     @total = e 
