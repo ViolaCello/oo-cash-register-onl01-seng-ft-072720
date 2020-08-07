@@ -59,10 +59,10 @@ class CashRegister
  #  
  # else
 #    c = @total
-    d = @prices[-1]
-    e = @total - d 
-    @total = e 
-end
+ #   d = @prices[-1]
+ #   e = @total - d 
+  #  @total = e 
+#end
  end 
  
 end
